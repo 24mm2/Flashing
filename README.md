@@ -14,7 +14,7 @@ Mu[†](#†) is a Python editor usefull with embedded solutions, such as this. 
 1. Download and install Mu, following the instructions here: https://codewith.mu/en/download
 2. Start Mu: It will download some more files, so it can take a bit time first time around.
 3. Download the .bin file you want to flash, as instructed in the repository that led you here.
-4. Assemble and insert the circuit into a USB port.
+4. Assemble and insert the circuit into a USB port. Click :ok:, if the message below occurs.![Detected](images/detected.png "Detected")
 5. Check, in the lower right corner, that the circuit is inserted and detected by seeing this ![Inserted](images/inserted.png "Inserted") and _not_ this ![Not Inserted](images/not-inserted.png "Not Inserted")
 6. Click on the gear ![Gear](images/gear.png "Gear") to get to the flashing menu
 7. ![M flashing](images/mu-flashing.png "Mu flashing")
