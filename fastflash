@@ -1,0 +1,19 @@
+#!/bin/bash
+SERIALPORT=$(find /dev/cu.u*)
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <binfile> [ERASE]"
+    echo "where binfile is the downloaded firmware,"
+    echo "specify ERASE to erase the core first"
+    exit 1
+fi
+if [ -f "$1" ]; then
+    echo "Erasing and Flashing $1 to Core on $SERIALPORT"
+else 
+    echo "$1 does not exist."
+    exit 2
+fi
+if [ "$2" == "ERASE" ]; then
+python3 -mesptool --chip esp32 --baud 460800 --port $SERIALPORT erase_flash
+fi
+python3 -mesptool --chip esp32 --baud 460800 --port $SERIALPORT write_flash -z 0x1000 $1
+exit 0
