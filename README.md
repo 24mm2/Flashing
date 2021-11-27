@@ -17,7 +17,7 @@ Mu[†](#†) is a Python editor usefull with embedded solutions, such as this. 
 4. Assemble and insert the circuit into a USB port. Click :ok:, if the message below occurs.![Detected](images/detected.png "Detected")
 5. Check, in the lower right corner, that the circuit is inserted and detected by seeing this ![Inserted](images/inserted.png "Inserted") and _not_ this ![Not Inserted](images/not-inserted.png "Not Inserted")
 6. Click on the gear ![Gear](images/gear.png "Gear") to get to the flashing menu
-7. ![M flashing](images/mu-flashing.png "Mu flashing")
+7. Flashing:![M flashing](images/mu-flashing.png "Mu flashing")
    1. Choose the second tab `Firmware flasher`
    2. Select `ESP32` in the dropdown menu
    3. Browse to your .bin file
