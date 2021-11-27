@@ -15,7 +15,7 @@ Mu† is a Python editor usefull with embedded solutions, such as this. Our core
 2. Start Mu: It will download some more files, so it can take a bit time first time around.
 3. Download the .bin file you want to flash, as instructed in the repository that led you here.
 4. Assemble and insert the circuit into a USB port.
-5. Check 
+5. Check that the circuit is inseerted and detected by seeing this ![Inserted](images/inserted.png "Inserted") and not this ![Not Inserted](images/not-inserted.png "Not Inserted")
 
 ## esptool
 
@@ -28,4 +28,4 @@ Mu† is a Python editor usefull with embedded solutions, such as this. Our core
 
 
 - - - -
-† Mu is the pronouciation of the greek letter μ, which is the SI prefix for micro, here referring to micro controllers.
+† Mu is the pronounciation of the greek letter μ, which is the SI prefix for micro, here referring to micro controllers.
