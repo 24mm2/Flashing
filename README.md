@@ -3,7 +3,7 @@ There is 3 methods described here to flash firmware to our cores, all available 
 
 1. _Easy_: Using [__Mu__](#Mu "Goto Mu instructions")
 2. _Fast_: Using Espressif's Python based [__esptool__](#esptool "Goto esptool instructions")
-3. _Flexisble_: Compile and upload the source with [__Arduino__](#Arduino  "Goto Arduino instructions")
+3. _Flexible_: Compile and upload the source with [__Arduino__](#Arduino  "Goto Arduino instructions")
 
 Optionally see [more techincal information here](TECHNICAL.md) about how the .bin files are created.
 
@@ -22,7 +22,7 @@ Mu† is a Python editor usefull with embedded solutions, such as this. Our core
 ### Instructions
 1. Download and install Mu, following the instructions here: https://www.arduino.cc/en/software
 
-##Arduino
+## Arduino
 
 
 
