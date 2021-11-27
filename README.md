@@ -15,8 +15,15 @@ Mu† is a Python editor usefull with embedded solutions, such as this. Our core
 2. Start Mu: It will download some more files, so it can take a bit time first time around.
 3. Download the .bin file you want to flash, as instructed in the repository that led you here.
 4. Assemble and insert the circuit into a USB port.
-5. Check that the circuit is inserted and detected by seeing this ![Inserted](images/inserted.png "Inserted") and _not_ this ![Not Inserted](images/not-inserted.png "Not Inserted")
+5. Check, in the lower right corner, that the circuit is inserted and detected by seeing this ![Inserted](images/inserted.png "Inserted") and _not_ this ![Not Inserted](images/not-inserted.png "Not Inserted")
 6. Click on the gear ![Gear](images/gear.png "Gear") to get to the flashing menu
+7. ![M flashing](images/mu-flashing.png "Mu flashing")
+ 1. Choose the second tab `Firmware flasher`
+ 2. Select `ESP32` in the dropdown menu
+ 3. Browse to your .bin file
+ 4. Click on `Erase & write firmware`
+
+This method is easy, but slow way to flash firmware if you have several cores to flash. Below using [__esptool__](#esptool "Goto esptool instructions") you can flash much faster, but it is more complicated.
 
 ## esptool
 
