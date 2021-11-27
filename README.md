@@ -31,10 +31,11 @@ This is a command line tool, which means you have to use the terminal applicatio
 ### Instructions
 1. Open your Terminal application
 2. Install ESPtool: `pip3 install esptool`
-3. Download the .bin file you want to flash, as instructed in the repository that led you here.
-4. Assemble and insert the circuit into a USB port. You can limit that to the Core and the Interface, for faster turnaround.
-5. Optionally erase the core: ``
-6. 
+3. Download the fastflash script: <a href="fastflash" download="fastflash">Download</a>
+4. Download the .bin file you want to flash, as instructed in the repository that led you here.
+5. Assemble and insert the circuit into a USB port. You can limit that to the Core and the Interface, for faster turnaround.
+6. Optionally erase the core: ``
+7. 
 
 ## Arduino
 
