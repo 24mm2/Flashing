@@ -8,7 +8,7 @@ There is 3 methods described here to flash firmware to our cores, all available 
 Optionally see [more techincal information here](TECHNICAL.md) about how the .bin files are created.
 
 ## Mu
-Mu† is a Python editor usefull with embedded solutions, such as this. Our cores are based on the Espresssif ESP32, and Mu supports programming in MicroPython on the ESP32. Mu also has a firmware flashing tool to flash MicroPython to an ESP32, but we are using this flashing tool to flash our firmware to the same core.
+Mu[†](#†) is a Python editor usefull with embedded solutions, such as this. Our cores are based on the Espresssif ESP32, and Mu supports programming in MicroPython on the ESP32. Mu also has a firmware flashing tool to flash MicroPython to an ESP32, but we are using this flashing tool to flash our firmware to the same core.
 
 ### Instructions
 1. Download and install Mu, following the instructions here: https://codewith.mu/en/download
@@ -36,4 +36,5 @@ This method is easy, but slow way to flash firmware if you have several cores to
 
 
 - - - -
-† Mu is the pronounciation of the greek letter μ, which is the SI prefix for micro, here referring to micro controllers.
+#### † 
+Mu is the pronounciation of the greek letter μ, which is the SI prefix for micro, here referring to micro controllers.
