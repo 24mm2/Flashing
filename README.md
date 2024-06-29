@@ -2,15 +2,15 @@
 There is 3 methods described here to flash firmware to our cores, all available on Windows, MacOS, and Linux, including ARM versions.
 
 1. _Easy_: Using [__Mu__](#Mu "Go to Mu instructions...")
-2. _Fast_: Using Espressif's Python based [ESPtool](#ESPtool "Go to the ESPtool instructions...")
+2. _Fast_: Using Espressif's Python based [__ESPtool__](#ESPtool "Go to the ESPtool instructions...")
 3. _Flexible_: Compile and upload the source with [__Arduino__](#Arduino  "Go to the Arduino instructions...")
 
 If you have any issues with these, try the [Troubleshooting](#Troubleshooting  "Go to the Troubleshooting section below...") section below.
 
-Optionally see [more techincal information here](TECHNICAL.md  "Take be to the Technical Information page...") about how the .bin files are created.
+Optionally see [more technical information here](TECHNICAL.md  "Take be to the Technical Information page...") about how the .bin files are created.
 
 ## Mu
-Mu[†](#†) is a Python editor usefull with embedded solutions, such as this. Our cores are based on the Espresssif ESP32, and Mu supports programming in MicroPython on the ESP32. Mu also has a firmware flashing tool to flash MicroPython to an ESP32, but we are using this flashing tool to flash our firmware to the same core.
+Mu[†](#†) is a Python editor useful for embedded solutions, such as this. Our cores are based on the Espresssif ESP32, and Mu supports programming in MicroPython on the ESP32. Mu also has a firmware flashing tool to flash MicroPython to an ESP32, but we are using this flashing tool to flash our firmware to the same core.
 
 ### Instructions
 1. Download and install Mu, following the instructions here: https://codewith.mu/en/download.
@@ -40,7 +40,10 @@ This is a command line tool, which means you have to use the terminal applicatio
 7. 
 
 ## Arduino
-
+PLEASE NOTE: This option for flashing is not currently availible for flashing the Extended and Standard cores with the standard firmware as of V1.4, this is because the source Arduino file has not been added yet. You may check the current latest release [here](https://github.com/domino4com/Firmware/releases) and may proceed if the Arduino source code has been provided.
+1. [Download the latest version of the Arduino IDE](https://www.arduino.cc/en/software)
+2. 
+3. 3jvndjnvjde
 ### Instructions
 
 
