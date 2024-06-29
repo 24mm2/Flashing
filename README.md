@@ -42,8 +42,12 @@ This is a command line tool, which means you have to use the terminal applicatio
 ## Arduino
 PLEASE NOTE: This option for flashing is not currently availible for flashing the Extended and Standard cores with the standard firmware as of V1.4, this is because the source Arduino file has not been added yet. You may check the current latest release [here](https://github.com/domino4com/Firmware/releases) and may proceed if the Arduino source code has been provided.
 1. [Download the latest version of the Arduino IDE](https://www.arduino.cc/en/software)
-2. 
-3. 3jvndjnvjde
+2. Go to File by the top bar, than preferences, then by Aditional boards manager URLs paste in `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+3. Proceed to go to the boards manager and download the esp32 board set ![Boards Manager](images/boardManager.png "Boards Manager") ![Install](images/install.png "Install")
+4. Go to tools by the top bar then Board > ESP32 > ESP32 Dev Module
+5. Proceed to load the source code or program your own code
+6. Finally connect the board to your computer and click Upload
+
 ### Instructions
 
 
